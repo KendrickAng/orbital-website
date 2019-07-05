@@ -1,0 +1,54 @@
+.bg-image {
+    background-image: url('../resources/wallpaper.png');
+    background-color: #3f4553; /* fallback bg color */
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* or simply: background: url() center center cover no-repeatt fixed */
+    min-height: 100vh;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .bg-image {
+        background-image: url('../resources/wallpaper-mobile.png'); 
+        background-color: #3f4553; /* fallback bg color */
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        /* or simply: background: url() center center cover no-repeatt fixed */
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: calc(10px + 2vmin);
+        color: white;
+    }
+}
+
+.title {
+    color: #d6f0ee;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 0px 0px 0.7em whitesmoke;     
+}
+
+.sub-title {
+    margin-top: 28vh;
+    color: #c6ebee;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 0px 0px 0.7em whitesmoke;     
+}

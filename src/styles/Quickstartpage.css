@@ -1,0 +1,21 @@
+body {
+    background-color: #201f22;
+}
+
+.Quickstartpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    padding-right: 2vh;
+    padding-bottom: 5vh;
+    padding-left: 2vh;
+}
+
+.instruction {
+    text-align: center;
+    color: #f2faf9;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 0px 0px 0.7em whitesmoke;     
+}
