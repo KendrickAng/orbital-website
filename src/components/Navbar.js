@@ -11,6 +11,10 @@ class Navbar extends React.Component {
                             <i className="home icon"></i>
                             Home
                         </Link>
+                        <Link to="/highscores" className="item">
+                            <i className="trophy icon"></i>
+                            Highscores
+                        </Link>
                         <Link to="/quickstart" className="item">
                             <i className="fast forward icon"></i>
                             Quickstart

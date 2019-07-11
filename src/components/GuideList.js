@@ -29,7 +29,7 @@ class GuideList extends React.Component {
     }
 }
 
-// Get specific data out of redux store and put in component props
+// Component subscribes to changes. Get specific data out of redux store and put in component props
 const mapStateToProps = (state) => {
     return { guides: state.guides };
 }

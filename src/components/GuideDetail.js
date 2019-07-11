@@ -3,9 +3,9 @@ import { connect } from 'react-redux';
 
 class GuideDetail extends React.Component {
     renderList(guideArr) {
-        return guideArr.map((str) => {
+        return guideArr.map(str => {
             return (
-                <div className="item">
+                <div className="item" key={str}>
                     {str}
                 </div>
             );

@@ -1,4 +1,4 @@
-// Action creator
+// select Quickstart guide
 export const selectGuide = guide => {
     // return an action
     return {
