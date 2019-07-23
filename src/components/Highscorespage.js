@@ -13,12 +13,12 @@ class Highscorespage extends React.Component {
     renderScoreList() {
         return this.props.scores.map(docSnapshot => {
             return (
-                <div className="row" key={docSnapshot.get("name")}>
+                <div className="row" key={docSnapshot.get("score")}>
                     <div className="column">
-                        <h2>{docSnapshot.get("name")}</h2>
+                        <h3>{docSnapshot.get("name")}</h3>
                     </div>
                     <div className="column">
-                        <h2>{docSnapshot.get("score")}</h2>
+                        <h3>{docSnapshot.get("score")}</h3>
                     </div>
                 </div>
             )
@@ -29,6 +29,14 @@ class Highscorespage extends React.Component {
         return (
             <div>
                 <div className="ui two column grid container segment">
+                    <div className="row">
+                        <div className="column">
+                            <h2>PLAYER</h2>
+                        </div>
+                        <div className="column">
+                            <h2>SCORE</h2>
+                        </div>
+                    </div>
                     {this.renderScoreList()}
                 </div>
                 <Navbar/>

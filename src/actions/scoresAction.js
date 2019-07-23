@@ -3,6 +3,7 @@ export const fetchScores = () => {
         const firestore = getFirestore();
         firestore.collection("highscores")
                 .orderBy("score", "desc")
+                .limit(10)
                 .get()
                 .then(querySnapshot => {
                     dispatch({
