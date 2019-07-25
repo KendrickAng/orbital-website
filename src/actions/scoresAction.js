@@ -2,8 +2,10 @@ export const fetchScores = () => {
     return (dispatch, getState, { getFirebase, getFirestore }) => {
         const firestore = getFirestore();
         firestore.collection("highscores")
+                .orderBy("level", "desc")
+                .orderBy("time", "asc")
                 .orderBy("score", "desc")
-                .limit(10)
+                .limit(12)
                 .get()
                 .then(querySnapshot => {
                     dispatch({
