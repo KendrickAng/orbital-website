@@ -6,7 +6,7 @@ import { scoresReducer } from './scoresReducer';
 
 //Reducers specify how the application's state changes in response to actions sent to the store.
 
-const gettingStartedContent = ["1. Download the .zip file from the homepage", "2. Unzip & extract the .exe game file", "3. Run the game. Enjoy :)"];
+const gettingStartedContent = ["1. Download the .zip file from the homepage", "2. Unzip the game files", "3. Run the game executable. Enjoy :)"];
 const tankContent = ["Primary skill: Block", "Secondary skill: Hammer swing", "Tertiary skill: Fortress"];
 const assassinContent = ["Primary skill: Dash", "Secondary skill: Shuriken throw", "Tertiary skill: Cleanse"];
 
