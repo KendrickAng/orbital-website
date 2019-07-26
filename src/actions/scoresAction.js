@@ -2,6 +2,7 @@ export const fetchScores = () => {
     return (dispatch, getState, { getFirebase, getFirestore }) => {
         const firestore = getFirestore();
         firestore.collection("highscores")
+                .where("version", "==", "BETA 1.5")
                 .orderBy("level", "desc")
                 .orderBy("time", "asc")
                 .orderBy("score", "desc")

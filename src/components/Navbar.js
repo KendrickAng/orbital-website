@@ -19,7 +19,7 @@ class Navbar extends React.Component {
                             <i className="fast forward icon"></i>
                             Quickstart
                         </Link>
-                        <a href="https://github.com/KendrickAng/Orbital/releases/download/beta-1.3/desktop-beta-1.3.zip" className="item">
+                        <a href="https://github.com/KendrickAng/Orbital/releases/download/beta-1.5/desktop-beta-1.5.zip" className="item">
                             <i className="download icon"></i>
                             Download
                         </a>
