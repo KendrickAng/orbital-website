@@ -4,6 +4,7 @@ import '../styles/Highscorespage.css';
 import { connect } from 'react-redux';
 import { fetchScores } from '../actions/scoresAction';
 
+// Represents the table of highscores.
 class Highscorespage extends React.Component {
     componentDidMount() {
         this.props.fetchScores();
@@ -29,7 +30,7 @@ class Highscorespage extends React.Component {
         }
     }
 
-    // Iterates over an array of DocumentSnapshots
+    // Iterates over an array of DocumentSnapshots (Cloud firestore API).
     renderScoreList() {
         return this.props.scores.map(docSnapshot => {
             return (

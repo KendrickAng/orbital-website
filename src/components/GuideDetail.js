@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
+// Represents a single card component with title and helper content.
 class GuideDetail extends React.Component {
     renderList(guideArr) {
         return guideArr.map(str => {

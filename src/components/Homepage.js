@@ -3,6 +3,7 @@ import TextBox from './TextBox';
 import '../styles/Homepage.css';
 import Navbar from './Navbar';
 
+// Represents the homepage screen.
 class Homepage extends React.Component {
     render() {
         return (

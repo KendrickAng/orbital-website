@@ -1,3 +1,5 @@
+// The main entry point of the React app.
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';

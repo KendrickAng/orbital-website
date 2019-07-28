@@ -1,6 +1,7 @@
 import React from 'react';
 import '../styles/TextBox.css';
 
+// Component for drawing text onto a screen.
 class TextBox extends React.Component {
     render() {
         return (

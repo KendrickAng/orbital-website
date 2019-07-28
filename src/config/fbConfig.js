@@ -1,5 +1,5 @@
 // We don't initialise any other apps since already done (see index.html)
-
+// Firebase configuration.
 export const fbConfig = {
     apiKey: "AIzaSyCqpJqKdS-fbgIKlyZ5uMqsg-1JCk8zMBQ",
     authDomain: "apollo1orbital3.firebaseapp.com",

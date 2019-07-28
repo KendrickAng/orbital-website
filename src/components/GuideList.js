@@ -2,6 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux'; // middleware for this cmpt to comms with Provider
 import { selectGuide } from '../actions';
 
+// Represents a collection of Guide components.
 class GuideList extends React.Component {
     renderList() {
         return this.props.guides.map((guide) => {

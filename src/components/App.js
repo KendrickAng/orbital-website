@@ -5,6 +5,7 @@ import Highscorespage from './Highscorespage';
 import '../styles/App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
+// Main application served through public/index.js.
 class App extends React.Component{
   render() {
 		return (

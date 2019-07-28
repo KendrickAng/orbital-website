@@ -7,6 +7,7 @@ import '../styles/Quickstartpage.css';
 
 const instruction = "Click the following to read more :)";
 
+// Contains instructions on how to download and install the game.
 class Quickstartpage extends React.Component {
     render() {
         return (

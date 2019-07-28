@@ -1,3 +1,4 @@
+// Query scores from Firebase Cloud Firestore. Order by highest level, lowest time, then highest score.
 export const fetchScores = () => {
     return (dispatch, getState, { getFirebase, getFirestore }) => {
         const firestore = getFirestore();
